@@ -1,0 +1,38 @@
+.body{
+    background-image: radial-gradient(circle, red, yellow, green);
+    height: 100vh;
+    background-repeat: no-repeat;
+
+}
+
+.header{
+    height: 5%;
+    width: 95%;
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 2%;
+    padding-bottom: 5%;
+    border: 5px solid white;
+    border-radius: 50px;
+
+}
+
+.mainSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left{
+    padding-right: 20%;
+}
+.right{
+    margin-top: 5%;
+    padding-left: 20%;
+}
+
+#news{
+    padding: 1%;
+    color: black;
+    /* font-weight: bold; */
+}
